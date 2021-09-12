@@ -1,0 +1,89 @@
+body,
+html {
+	width: 100%;
+	background: linear-gradient(15deg, rgba(0,255,250,0.1) 0%, rgba(217,255,142,0.2) 37%, rgba(214,255,154,0.3) 57%, rgba(0,184,63,0.3) 91%);
+	font-size: 16px;
+	background-size: 100% auto;
+}
+
+.person {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 32px 96px 32px 96px;
+}
+
+.person__info {
+	width: 30%;	
+}
+
+.person__contacts {
+	width: 70%;
+	padding: 50px 32px;
+}
+
+.person__details {
+	box-sizing: border-box;
+}
+
+.avatar {
+	/* добавьте ваш код  */ 
+}
+
+.avatar__picture {
+	border: 25px solid white;
+	border-radius: 50%;
+	box-shadow: 0 0 7px #666;
+	transition: 2s;
+	margin: 32px 32px 32px 32px;    
+}
+
+     .avatar__picture:hover {
+         border: 25px solid rgb(12, 174, 238);
+}
+
+.contacts {
+	list-style-type: none;
+	padding: 32px;
+}
+
+.contacts__name {
+	color: #000;
+	font-size: 32pt;
+	font-weight: 600;
+}
+
+.contacts__role {
+	color: #000;
+	font-size: 19.2pt;
+	font-weight: 600;
+}
+
+.contacts__item {
+	color: #000;
+	font-size: 16pt;
+	font-weight: 600;
+}
+
+.contacts__title {
+	/* добавьте ваш код  */
+}
+
+.contacts__link {
+	color: gray;
+	font-size: 16pt;
+	font-style: italic;
+}
+
+.paragraph {
+	text-indent: 1em;
+	padding: 16px;
+	text-align: justify;
+	color: #000;
+	font-size: 16pt;
+	font-weight: normal;
+}
+
+.paragraph_last {
+	padding-bottom: 48px;
+}
