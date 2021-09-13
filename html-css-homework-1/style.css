@@ -53,8 +53,8 @@ html {
 }
 
 .contacts {
-	margin-left: 0; 
-    padding-left: 0;
+	margin-left: 0px; 
+    padding-left: 0px;
 	list-style-type: none;
 	margin: 60;
 }
@@ -82,9 +82,7 @@ html {
 	font-size: 16pt;
 	font-weight: 600;
 }
-.contacts__title: after {
-	/* добавьте ваш код  */
-}
+
 .contacts__link {
 	color: gray;
 	font-size: 16pt;
